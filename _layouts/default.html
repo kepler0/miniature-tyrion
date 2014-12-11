@@ -15,7 +15,13 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     
-    <title>Final Project</title>
+    <title>
+      {{ if page.title }}
+        {{ page.title | Ethical Dilemma }}
+      {{ else }}
+        {{ Ethical Dilemma }}
+      {{ endif }}
+    </title>
   </head>
   <body>
     <div id="navigation-bar">
