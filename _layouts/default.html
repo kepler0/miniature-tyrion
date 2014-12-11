@@ -18,7 +18,7 @@
     <title>
       {{ if page.title }}
         {{ page.title | Ethical Dilemma }}
-      {{ else }}
+      {{ elsif page.title == null }}
         {{ Ethical Dilemma }}
       {{ endif }}
     </title>
