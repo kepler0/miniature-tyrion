@@ -8,3 +8,4 @@ layout: default
   <h3>Abstract</h3>
   <p>Consider this, you've found a backdoor into a large computer company's user database. It contains all the information they've collected on, and from,their users in plain, readable, text. What do you do with this new-found ability and information?</p>
 </div>
+![Image of Data Servers courtesy of WikiCommons](http://upload.wikimedia.org/wikipedia/commons/5/5d/BalticServers_data_center.jpg)
