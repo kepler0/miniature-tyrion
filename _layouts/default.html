@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     
     <title>
-      {{ page.title | The Ethical Dilemma of Grey Hat Hacking }}
+      {{ if page.title }}
+        {{ page.title | The Ethical Dilemma of Grey Hat Hacking }}
+      {{ else }}
+        The Ethical Dilemma of Grey Hat Hacking
+      {{ endif }}
     </title>
   </head>
   <body>
